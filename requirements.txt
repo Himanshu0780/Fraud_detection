@@ -1,0 +1,19 @@
+pandas
+scikit-learn
+xgboost
+streamlit
+imbalanced-learn
+joblib
+matplotlib
+seaborn
+shap
+
+# Data & Project layout:
+
+fraud_detection_app/
+├── creditcard.csv         # dataset (e.g., Kaggle creditcard fraud dataset)
+├── model_training.py
+├── app.py                 # Streamlit dashboard
+├── fraud_detection_model.pkl
+├── scaler.pkl
+└── requirements.txt
